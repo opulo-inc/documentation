@@ -15,7 +15,7 @@ The LumenPnP is completely open source and has an active community with ongoing 
 It is completely open source and hackable. The main controller has three AUX ports, allowing anyone to add on peripherals or communicate with other machines.
 
 !!! danger "Warning"
-    This documentation corresponds with a specific machine **Version Number**. The Version Number represents what version of hardware your machine has. If you're building a Semi-Assembled LumenPnP, **you have a v3 machine, and these docs are for you!** You should see "v3.X.X" on the pamphlet that was included in your kit. If you see "v2" on your pamphlet, use [these instructions](https://docs.opulo.io/docs/) for your machine.
+    This documentation corresponds with a specific machine **Version Number**. The Version Number represents what version of hardware your machine has. If you're building a Semi-Assembled LumenPnP, **you have a v3 machine, and these docs are for you!** You should see "v3.X.X" on the pamphlet that was included in your kit. If you see "v2" on your pamphlet, use [these instructions](../byop/index.md) for your machine.
 
 ## Before you begin
 

@@ -33,13 +33,13 @@ It is completely open source and hackable. The main controller has three AUX por
 
 ### Referencing Source Files
 
-As you go through this guide, you might find that you'd like to refer to the source files for a number of parts in the machine. The exported build files and source for your machine can be found on the [Releases Page](https://github.com/index-machines/index/releases). Make sure to reference the same Build Number as your machine kit!
+As you go through this guide, you might find that you'd like to refer to the source files for a number of parts in the machine. The exported build files and source for your machine can be found on the [Releases Page](https://github.com/opulo-inc/lumenpnp/releases). Make sure to reference the same Build Number as your machine kit!
 
 ### Machine Orientation and Terminology
 
 Throughout this guide we'll be referring to different orientations and directions of the machine as "left, right, front, back, up, and down." In general, these words are in reference to the typical view of the machine, facing it directly, as shown below.
 
-![hero image of LumenPnP](images/hero-alpha-min.png)
+![hero image of LumenPnP](hero-alpha-min.png)
 
 We'll also refer to putting the machine "back on its haunches." This refers to a feature of the LumenPnP where it can be lifted up by the front rail and let to rest upright on its back feet. This orientation is tremendously helpful for installing things to the staging plate and plugging things into the motherboard. Whenever putting your machine back, make sure the Y gantry is pushed all the way to the back of the machine to prevent backdriving the Y stepper motor driver. An image of this orientation is below.
 
@@ -48,7 +48,7 @@ We'll also refer to putting the machine "back on its haunches." This refers to a
 
 ### Help
 
-If you find that there's something unclear in this documentation, please [submit a ticket on Github](https://github.com/index-machines/index/issues/new/choose) about it! Select the "Index Documentation Issue" template. You can also file an issue using the link in the upper right of any page on this site. We're trying to make this as clear and understandable as possible, so every issue you tag helps us make it better for everyone else. You can also check out the [Discord server](https://discordapp.com/invite/TCwy6De) and ask questions to the community.
+If you find that there's something unclear in this documentation, please [submit a ticket on Github](https://github.com/opulo-inc/lumenpnp/issues/new/choose) about it! Select the "Index Documentation Issue" template. You can also file an issue using the link in the upper right of any page on this site. We're trying to make this as clear and understandable as possible, so every issue you tag helps us make it better for everyone else. You can also check out the [Discord server](https://discordapp.com/invite/TCwy6De) and ask questions to the community.
 
 ### Timing
 
