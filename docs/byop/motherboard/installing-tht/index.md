@@ -1,10 +1,4 @@
----
-title: "Install THT Components"
-linkTitle: "Install THT Components"
-weight: 1
-description: >-
-     Instructions about how to install the THT components into a LumenPnP Motherboard
----
+# Install THT Components
 
 There are five types of connectors that need to be soldered into your motherboard. We'll go over each one, and how to solder them in place.
 
@@ -28,9 +22,8 @@ The IDC connectors are the larger, black connectors in your connector bag. There
 
 The bulk of the connectors on the board are JST XH connectors. These come in two, three, and four pin variations. The two pin connectors are for the mosfets, the three pin connectors are for the servos, limit switches, and ring lights, and the four pin connectors are for the stepper motors.
 
-{{% alert color="danger" title="WARNING" %}}
-The 4-pin JST XH connector for the Y2 motor (the one right next to the Y silkscreen indicator) **needs to be rotated 180 degrees from what the silkscreen dictates**. This one should be soldered in reverse, opposite of the silkscreen indication. Refer to the image below for reference.
-{{% /alert %}}
+!!! danger "WARNING"
+          The 4-pin JST XH connector for the Y2 motor (the one right next to the Y silkscreen indicator) **needs to be rotated 180 degrees from what the silkscreen dictates**. This one should be soldered in reverse, opposite of the silkscreen indication. Refer to the image below for reference.
 
 ![](images/IMG_0679.JPG)
 ![](images/IMG_0678.JPG)
@@ -54,8 +47,8 @@ The last connectors that need to be soldered into the board are the 1x8 Dupont 0
 
 The LumenPnP motherboard will have the USB-C connector already soldered when you receive it. Double-check the soldering of the feet, as there was an early batch of motherboards that had issues with an in-house assembly error here. If you see an issue, take photos of it before attempting to repair the problem. That way, if you're unable to fix the issue, Opulo can still replace your motherboard for you. If you don't feel confident fixing an issue yourself or if you aren't sure if there's a problem with your motherboard, get in touch with support@opulo.io so that we can send you a replacement motherboard if necessary.
 
-![](images/usb-c-feet.png" alt="check the USB-C feet for incorrect soldering or damage" >}}
+![](images/usb-c-feet.png)
 
 ## Next steps
 
-Continue to [mounting the motherboard]({{< relref "mounting" >}}).
+Continue to [mounting the motherboard](../mounting/index.md).

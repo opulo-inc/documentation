@@ -1,10 +1,4 @@
----
-title: "Routing the X Gantry Umbilical"
-linkTitle: "Routing the X Gantry Umbilical"
-weight: 30
-description: >
-  Connecting and securing the X gantry umbilical cable
----
+# Routing the X Gantry Umbilical
 
 For this, all you'll need is your freshly made X gantry umbilical cable, and your bag of zip ties. Note that we'll be plugging in the unlabeled end of the cables, as the labels are meant to help identify wires on on the motherboard side.
 
@@ -27,23 +21,23 @@ For this, all you'll need is your freshly made X gantry umbilical cable, and you
 
 ## Securing the Cables
 
-6. Align the cable bundle with the {{<tooltip "X Gantry Back" "FDM-0012">}} as shown in the picture below, and secure it to the guide with two large zip ties.
+6. Align the cable bundle with the `X Gantry Back` as shown in the picture below, and secure it to the guide with two large zip ties.
   ![](images/IMG_0817.JPG)
   ![](images/IMG_0818.JPG)
 
-7. Secure the left motor cable using a small zip tie and the slot in the {{<tooltip "X Gantry Front" "FDM-0011">}}
+7. Secure the left motor cable using a small zip tie and the slot in the `X Gantry Front`
   ![](images/PXL_20220205_013837319.jpg)
 
 ## Securing to the Frame
 
 8. Move the Y gantry all the way to the back of the machine until you feel it hit the limit of travel, and do the same with the X gantry to the right of the machine. This will ensure that you don't fasten the cable too tightly such that it restricts the machine's motion.
 
-9. Then, take the cable bundle and guide it along the {{<tooltip "Umbilical Swivel" "FDM-0046 and FDM-0047">}}. Take five large zip ties and **loosely** secure them through the zip tie guides on the {{<tooltip "Umbilical Swivel" "FDM-0046 and FDM-0047">}} and around the cable bundle. Do not tighten yet, as we still need to route the pneumatic tubing through these zip ties.
+9. Then, take the cable bundle and guide it along the `Umbilical Swivel` and around the cable bundle. Do not tighten yet, as we still need to route the pneumatic tubing through these zip ties.
   ![](images/IMG_0819.JPG)
 
-10. Now route the cable bundle through the two loose zip ties you attached in the {{<tooltip "Frame Umbilical Mount" "FDM-0007">}} in the last step. Don't tighten these yet; we still need to route the pneumatics.
+10. Now route the cable bundle through the two loose zip ties you attached in the `Frame Umbilical Mount` in the last step. Don't tighten these yet; we still need to route the pneumatics.
   ![](images/IMG_0821.JPG)
 
 ## Next steps
 
-Continue to [connecting the cables to the motherboard]({{< relref "connecting-to-mobo" >}}).
+Continue to [connecting the cables to the motherboard](../connecting-to-mobo/index.md).

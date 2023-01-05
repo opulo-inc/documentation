@@ -115,7 +115,7 @@ If you find that the machine is having a hard time finding the homing fiducial, 
 14. Raise or lower the `threshold` parameter as necessary until the image is precise.
     1. If the image is too black, raise the `threshold` setting.
     2. If the image is too bright, lower the `threshold` setting.
-   <!-- ![](images/detect-circles-stage.png" alt="Home the machine" >}} -->
+   <!-- ![](images/detect-circles-stage.png) -->
 
 15. Click on the `DrawCircles` stage and check if the fiducial has been correctly identified.
   ![Click on the DrawCircles stage](images/draw-circles-stage.png)
@@ -162,27 +162,27 @@ If you find that the machine is having a hard time finding the homing fiducial, 
 ### Nozzles
 
 1. Go to the `Vision` tab.
-   ![](images/vision-tab.png" alt="Switch to the vision tab" >}}
+   ![](images/vision-tab.png)
 
 2. Select on `BottomVision` from the type dropdown.
-   ![](images/fiducial-vision-dropdown.png" alt="Select fiducial vision" >}}
+   ![](images/fiducial-vision-dropdown.png)
 
 3. Select `- Default Machine Bottom Vision -` from the pipeline list.
-   ![](images/select-default-fiducial-vision.png" alt="Select the default pipeline" >}}
+   ![](images/select-default-fiducial-vision.png)
 
 4. Click on Pipeline `Edit`.
-   ![](images/edit-pipeline.png" alt="Edit the pipeline" >}}
+   ![](images/edit-pipeline.png)
 
 ### Part Recognition
 
 1. Go to the `Vision` tab.
-   ![](images/vision-tab.png" alt="Switch to the vision tab" >}}
+   ![](images/vision-tab.png)
 
 2. Select on `BottomVision` from the type dropdown.
-   ![](images/fiducial-vision-dropdown.png" alt="Select fiducial vision" >}}
+   ![](images/fiducial-vision-dropdown.png)
 
 3. Select `- Default Machine Bottom Vision -` from the pipeline list.
-   ![](images/select-default-fiducial-vision.png" alt="Select the default pipeline" >}}
+   ![](images/select-default-fiducial-vision.png)
 
 4. Click on Pipeline `Edit`.
-   ![](images/edit-pipeline.png" alt="Edit the pipeline" >}} -->
+   ![](images/edit-pipeline.png) -->

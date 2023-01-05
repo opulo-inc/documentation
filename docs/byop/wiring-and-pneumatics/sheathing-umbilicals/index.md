@@ -1,10 +1,4 @@
----
-title: "Sheathing the Umbilicals"
-linkTitle: "Sheathing the Umbilicals"
-weight: 10
-description: >
-  Creating the two umbilical cables in the machine
----
+# Sheathing the Umbilicals
 
 Now we'll assemble the two umbilical cables in the machine. The one connecting from the front left leg to the left side of the Y gantry is the Y gantry umbilical, and the one connecting from the front left leg to the X gantry is the X gantry umbilical.
 
@@ -64,4 +58,4 @@ This cable bundle will contain the following:
 
 ## Next steps
 
-Continue to [routing the Y gantry umbilical]({{< relref "routing-y-umbilical" >}}).
+Continue to [routing the Y gantry umbilical](../routing-y-umbilical/index.md).

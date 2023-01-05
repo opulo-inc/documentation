@@ -1,10 +1,4 @@
----
-title: "Actuator Check"
-linkTitle: "Actuator Check"
-weight: 40
-description: >-
-     How to check the actuators on your LumenPnP
----
+# Actuator Check
 
 ## Pumps
 The first and most important actuator on your LumenPnP is the vacuum pump. We can check this by sending more Gcode to the machine. Send the first line to turn on the pump, and the second one to turn it back off.
@@ -58,20 +52,18 @@ M107 P1               ;turn off the valve
 
 
 
-{{< alert color="warning" title="Interposer Board" >}}
+!!! danger "Interposer Board"
+          Some LumenPnP kits shipped with a less than optimal vacuum sensor wiring. Some people's sensors can detect a swing of about 200, but in some cases there isn't enough of a difference for a useful signal because of some part tolerances. We're sorry about this! When the community discovered this issue, we stopped shipping immediately and designed a board that sits in between the vacuum sensor and the motherboard that makes the signal much stronger. Once we confirmed this board fixes the issue, we installed them on all machines we shipped moving forward.
 
-Some LumenPnP kits shipped with a less than optimal vacuum sensor wiring. Some people's sensors can detect a swing of about 200, but in some cases there isn't enough of a difference for a useful signal because of some part tolerances. We're sorry about this! When the community discovered this issue, we stopped shipping immediately and designed a board that sits in between the vacuum sensor and the motherboard that makes the signal much stronger. Once we confirmed this board fixes the issue, we installed them on all machines we shipped moving forward.
+          No Interposers Installed
+          ![](images/IMG_1293.JPG)
 
-No Interposers Installed
-![](images/IMG_1293.JPG" alt="No Interposer Installed" >}}
+          Interposer Boards Installed
+          ![](images/IMG_1325.JPG)
 
-Interposer Boards Installed
-![](images/IMG_1325.JPG" alt="Interposer Board Installed" >}}
+          If you bought a LumenPnP kit that did not come with interposer boards installed and would like to upgrade them, please [reach out to our support team](https://opulo.io/pages/contact-support) and we'll get some sent out to you as soon as possible. We have an [installation guide](https://docs.opulo.io/maintenance-upgrades/rev3-vac-interposer/) to guide you through the process.
 
-If you bought a LumenPnP kit that did not come with interposer boards installed and would like to upgrade them, please [reach out to our support team](https://opulo.io/pages/contact-support) and we'll get some sent out to you as soon as possible. We have an [installation guide](https://docs.opulo.io/maintenance-upgrades/rev3-vac-interposer/) to guide you through the process.
-
-If you have the interposer boards installed for your vacuum sensors, change the `G4` to a `G2` in your "sensor read" GCode command. This changes the gain of the sensor to a more usable value. The difference in value should now be about 2000.
-{{< /alert >}}
+          If you have the interposer boards installed for your vacuum sensors, change the `G4` to a `G2` in your "sensor read" GCode command. This changes the gain of the sensor to a more usable value. The difference in value should now be about 2000.
 
 
 It's also worth noting the command for reading the second vacuum sensor. Until pneumatics for a second nozzle are plumbed in, the second one will only ever read ambient pressure.
@@ -79,6 +71,9 @@ It's also worth noting the command for reading the second vacuum sensor. Until p
 ```gcode
 M3426 G4 C2 I1 A110  ;read vac 2 value
 ```
-{{< alert color="warning" title="In Case Of Error" >}}
-These commands are meant for a newer version of Marlin that adds support for multiple ADCs. If you're getting an error in response from Marlin, [update the firmware to the latest version](https://docs.opulo.io/docs/motherboard/update-firmware/).
-{{< /alert >}}
+!!! danger "In Case Of Error"
+          These commands are meant for a newer version of Marlin that adds support for multiple ADCs. If you're getting an error in response from Marlin, [update the firmware to the latest version](https://docs.opulo.io/docs/motherboard/update-firmware/).
+
+## Next steps
+
+Continue to [feedback](../feedback/index.md).

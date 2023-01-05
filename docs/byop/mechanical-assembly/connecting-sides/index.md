@@ -1,10 +1,4 @@
----
-title: "Connecting the Sides"
-linkTitle: "Connecting the Sides"
-weight: 30
-description: >
-  Attaching the left and right sides of the machine together 
----
+# Connecting the Sides
 
 Now we're going to combine the left and right side together using two aluminum extrusions, and the staging plate.
 
@@ -17,39 +11,39 @@ Now we're going to combine the left and right side together using two aluminum e
 |   6 | 2020 Corner Bracket        |
 |   1 | FDM-0022 (Umbilical Guide) |
 
-1. Insert a new v-slot extrusion (in green below) into the {{<tooltip "Front Left Leg" "FDM-0001">}} underneath the bottom rail.
-  ![](images/Connecting-The-Sides-Step-1.png" alt="Insert V-slot extrusion into Front Left and Right Feet overview" >}}
-  ![](images/Connecting-The-Sides-Step-1-2.png" alt="Insert V-slot extrusion into Front Left Foot" >}}
-  ![](images/Connecting-The-Sides-Step-1-3.png" alt="Insert V-slot extrusion into Front Right Foot" >}}
-  ![](images/v_slot_into_frame.png" alt="Insert V-Slot Into Frame" >}}
+1. Insert a new v-slot extrusion (in green below) into the `Front Left Leg` underneath the bottom rail.
+  ![](images/Connecting-The-Sides-Step-1.png)
+  ![](images/Connecting-The-Sides-Step-1-2.png)
+  ![](images/Connecting-The-Sides-Step-1-3.png)
+  ![](images/v_slot_into_frame.png)
 
-2. Drop in and position a slot nut underneath the hole and use a M5x10mm machine screw to fasten the v-slot extrusion to the {{<tooltip "Front Left Leg" "FDM-0001">}}.
-  ![](images/Connecting-The-Sides-Step-2.png" alt="Use a M5x10mm screw to attach the cross piece to the Front Left Leg" >}}
+1. Drop in and position a slot nut underneath the hole and use a M5x10mm machine screw to fasten the v-slot extrusion to the `Front Left Leg`.
+  ![](images/Connecting-The-Sides-Step-2.png)
 
-3. Drop in and position a slot nut underneath the hole and use a M5x10mm machine screw to fasten the v-slot extrusion to the {{<tooltip "Front Right Leg" "FDM-0002">}}.
-  ![](images/Connecting-The-Sides-Step-3.png" alt="Use a M5x10mm screw to attach the cross piece to the Front Right Leg" >}}
+1. Drop in and position a slot nut underneath the hole and use a M5x10mm machine screw to fasten the v-slot extrusion to the `Front Right Leg`.
+  ![](images/Connecting-The-Sides-Step-3.png)
 
-4. Attach one of the included metal 2020 corner bracket to the 20x20 V-Slot on the left side using two slot nuts and two M5x8mm screws.
-  ![](images/Connecting-The-Sides-Step-4.png" alt="Attach a 2020 corner bracket on the left side" >}}
+1. Attach one of the included metal 2020 corner bracket to the 20x20 V-Slot on the left side using two slot nuts and two M5x8mm screws.
+  ![](images/Connecting-The-Sides-Step-4.png)
 
-5. Attach a 2020 corner bracket to the 20x20 V-Slot on the right side using two slot nuts and two M5x8mm screws.
-  ![](images/Connecting-The-Sides-Step-5.png" alt="Attach a 2020 corner bracket on the right side" >}}
+1. Attach a 2020 corner bracket to the 20x20 V-Slot on the right side using two slot nuts and two M5x8mm screws.
+  ![](images/Connecting-The-Sides-Step-5.png)
 
-6. Fasten the {{<tooltip "Umbilical Guide" "FDM-0022">}} on the bottom side of the bottom rail of the left side in place using two M5x10mm screws and two slot nuts.
-  ![](images/Connecting-The-Sides-Step-6.png" alt="Fasten the umbilical guide with M5x10mm screws" >}}
+1. Fasten the `Umbilical Guide` on the bottom side of the bottom rail of the left side in place using two M5x10mm screws and two slot nuts.
+  ![](images/Connecting-The-Sides-Step-6.png)
 
-7. Affix a 2020 corner bracket to the end of another V-slot using the a slot nut and an M5x8mm screw. Make sure the side of the bracket is perfectly flush with the end of the extrusion. It helps to tighten it in place against a flat surface.
-  ![](images/Connecting-The-Sides-Step-7.png" alt="Attach a 2020 corner bracket to the v-slot extrusion" >}}
+1. Affix a 2020 corner bracket to the end of another V-slot using the a slot nut and an M5x8mm screw. Make sure the side of the bracket is perfectly flush with the end of the extrusion. It helps to tighten it in place against a flat surface.
+  ![](images/Connecting-The-Sides-Step-7.png)
 
-8. Repeat the previous step three times to install three more braces in the orientation shown below. This is the back rail.
-  ![](images/Connecting-The-Sides-Step-8.png" alt="Attach 3 more 2020 corner brackets to the v-slot extrusion" >}}
+1. Repeat the previous step three times to install three more braces in the orientation shown below. This is the back rail.
+  ![](images/Connecting-The-Sides-Step-8.png)
 
-9. Flip the machine upside down. Using four M5x8mm screws and four slot nuts, fasten the back rail to the left and right sides of the machine as shown below. Make sure that the ends of the back rail are perfectly flush with the sides of the extrusion on the left and right sides. This will help keep the machine square. The brackets do not need to be touching the printed feet.
-  ![](images/Connecting-The-Sides-Step-9.png" alt="Fasten the rear brace using two M5x8mm screws overview" >}}
-  ![](images/Connecting-The-Sides-Step-9-2.png" alt="Fasten the rear brace using two M5x8mm screws Left view" >}}
-  ![](images/Connecting-The-Sides-Step-9-3.png" alt="Fasten the rear brace using two M5x8mm screws Right view" >}}
-  ![](images/Connecting-The-Sides-Step-9-4.png" alt="Fasten the rear brace using two M5x8mm screws Bottom view" >}}
+1. Flip the machine upside down. Using four M5x8mm screws and four slot nuts, fasten the back rail to the left and right sides of the machine as shown below. Make sure that the ends of the back rail are perfectly flush with the sides of the extrusion on the left and right sides. This will help keep the machine square. The brackets do not need to be touching the printed feet.
+  ![](images/Connecting-The-Sides-Step-9.png)
+  ![](images/Connecting-The-Sides-Step-9-2.png)
+  ![](images/Connecting-The-Sides-Step-9-3.png)
+  ![](images/Connecting-The-Sides-Step-9-4.png)
 
 ## Next steps
 
-Continue to assembling the [Y Gantry]({{< relref "y-gantry-assembly" >}}).
+Continue to assembling the [Y Gantry](../y-gantry-assembly/index.md).

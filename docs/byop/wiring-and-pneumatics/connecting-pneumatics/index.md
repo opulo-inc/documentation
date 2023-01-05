@@ -1,10 +1,4 @@
----
-title: "Connecting the Pneumatics"
-linkTitle: "Connecting the Pneumatics"
-weight: 50
-description: >
-  Making all the pneumatic connections in the machine
----
+# Connecting the Pneumatics
 
 Now that we've got everything wired up, it's time to get all the tubing plumbed.
 
@@ -28,9 +22,9 @@ Now that we've got everything wired up, it's time to get all the tubing plumbed.
   ![](images/IMG_0731.JPG)
 
 3. Switch to using the smaller, 4mm black tubing. Cut a 235mm length of 4mm OD tubing and push one side into a fork of the Y splitter, and route the other end underneath the motherboard and onto the `VAC1` sensor port.
-  {{< alert color="info" title="Keep In Mind" >}}
-  This sensor is only attached to the motherboard with six solder joints. Be gentle when pushing the tubing onto it. Twisting the tubing back and forth as you push it down can help get it on without too much force.
-  {{< /alert >}}
+
+    !!! info "Keep In Mind"
+        This sensor is only attached to the motherboard with six solder joints. Be gentle when pushing the tubing onto it. Twisting the tubing back and forth as you push it down can help get it on without too much force.
   ![](images/IMG_0733.JPG)
   ![](images/IMG_0736.JPG)
 
@@ -52,4 +46,4 @@ Congratulations, you're all wired and plumbed up! It's time to give it a test!
 
 ## Next steps
 
-Continue to [testing your machine]({{< relref "testing" >}}).
+Continue to [testing your machine](../../testing/connect-computer/index.md).

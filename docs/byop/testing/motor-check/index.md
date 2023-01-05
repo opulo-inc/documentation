@@ -1,10 +1,4 @@
----
-title: "Motor Check"
-linkTitle: "Motor Check"
-weight: 20
-description: >-
-     How to check the motors on your LumenPnP
----
+# Motor Check
 
 Now that you're connected to your LumenPnP, we'll walk you through testing the motors and automatic homing.
 
@@ -69,4 +63,4 @@ You should see your nozzle stepper rotate 90 degrees. If not, double check motor
 
 ## Next steps
 
-Continue to [testing the actuators]({{< relref "actuator-check" >}}).
+Continue to [testing the actuators](../actuator-check/index.md).
